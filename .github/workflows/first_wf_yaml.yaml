@@ -9,10 +9,10 @@ jobs:
         run: echo 'hello'
       - name: step say ps
         run: ps
-      - name: step say tree home
-        run: tree -L 2 /home/runner/worker/delacty1
       - name: datey
         run: date
+      - name echo ooo
+        echo: ooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
       - name: step pause 61s
         run: sleep 61
       - name: datey
