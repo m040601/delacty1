@@ -10,7 +10,7 @@ jobs:
       - name: step say ps
         run: ps
       - name: step say tree home
-        run: tree /home
+        run: tree -L 2 /home
       - name: datey
         run: date
       - name: step pause 61s
