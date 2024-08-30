@@ -9,6 +9,8 @@ jobs:
         run: echo 'hello'
       - name: step say ps
         run: ps
+      - name: step say tree home
+        run: tree /home
       - name: datey
         run: date
       - name: step pause 61s
@@ -32,3 +34,5 @@ jobs:
         run: date
       - name: step 2-3 say df
         run: df -h
+      - name: step 2-4 say figlet
+        run: figlet hello
