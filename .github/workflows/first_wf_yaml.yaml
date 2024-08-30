@@ -34,5 +34,3 @@ jobs:
         run: date
       - name: step 2-3 say df
         run: df -h
-      - name: step 2-4 say figlet
-        run: figlet hello
