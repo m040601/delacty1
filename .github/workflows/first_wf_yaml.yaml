@@ -11,8 +11,8 @@ jobs:
         run: ps
       - name: datey
         run: date
-      - name: step pause 10s
-        run: sleep 10s
+      - name: step pause 61s
+        run: sleep 61
       - name: datey
         run: date
       - name: step say uname
