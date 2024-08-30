@@ -2,15 +2,20 @@ name: my first wf
 on:
   push:
 jobs:
-  simple-job:
+  1st-simple-job:
     runs-on: ubuntu-latest
     steps:
-      - name: say hello
+      - name: step say hello
         run: echo 'hello'
-      - name: say ps
+      - name: step say ps
         run: ps
-      - name: say uname
+      - name: step say uname
         run: uname -a
-      - name: say pwd
+      - name: step say pwd
         run: pwd
+  2nd-simple-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step 2-2 say ls
+        run: ls -lah
 
