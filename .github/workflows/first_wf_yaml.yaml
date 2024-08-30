@@ -9,6 +9,8 @@ jobs:
         run: echo 'hello'
       - name: step say ps
         run: ps
+      - name: step pause 10s
+        run: sleep 10s
       - name: step say uname
         run: uname -a
       - name: step say pwd
@@ -16,5 +18,9 @@ jobs:
   seconnd-simple-job:
     runs-on: ubuntu-latest
     steps:
-      - name: step 2-2 say ls
+      - name: step 2-1 say ls
         run: ls -lah
+      - name: step 2-2 pause 10s
+        run: sleep 10s
+      - name: step 2-3 say df
+        run: df -h
