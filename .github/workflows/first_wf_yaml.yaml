@@ -11,7 +11,7 @@ jobs:
         run: ps
       - name: datey
         run: date
-      - name echo ooo
+      - name: echo ooo
         echo: ooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
       - name: step pause 61s
         run: sleep 61
