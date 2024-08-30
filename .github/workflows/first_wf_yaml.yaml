@@ -9,8 +9,12 @@ jobs:
         run: echo 'hello'
       - name: step say ps
         run: ps
+      - name: datey
+        run: date
       - name: step pause 10s
         run: sleep 10s
+      - name: datey
+        run: date
       - name: step say uname
         run: uname -a
       - name: step say pwd
@@ -20,7 +24,11 @@ jobs:
     steps:
       - name: step 2-1 say ls
         run: ls -lah
+      - name: datey
+        run: date
       - name: step 2-2 pause 10s
         run: sleep 10s
+      - name: datey
+        run: date
       - name: step 2-3 say df
         run: df -h
