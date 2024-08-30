@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: say hello
         run: echo 'hello'
+      - name: say ps
+        run: ps
