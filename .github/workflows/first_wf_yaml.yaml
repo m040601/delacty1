@@ -12,7 +12,7 @@ jobs:
       - name: datey
         run: date
       - name: echo ooo
-        echo: ooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+        run: echo ooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
       - name: step pause 61s
         run: sleep 61
       - name: datey
