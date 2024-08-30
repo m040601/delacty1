@@ -1,4 +1,4 @@
-name: my first wf
+name: firsty workflow name
 on:
   push:
 jobs:
