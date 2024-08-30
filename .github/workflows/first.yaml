@@ -9,3 +9,8 @@ jobs:
         run: echo 'hello'
       - name: say ps
         run: ps
+      - name: say uname
+        run: uname -a
+      - name: say pwd
+        run: pwd
+
